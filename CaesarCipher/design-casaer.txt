@@ -1,0 +1,277 @@
+Caesar Cipher: Thu Nguyen and Elizabeth Zak
+1. What does this component do in a single sentence?
+
+CaesarCipher encodes or decodes a statement based on the options chosen.
+Encode takes a string as an argument and promptly shifts each of the
+letters in the string over by n amount of letters.
+
+2. What is the interface to this component? What are its inputs and
+outputs?
+
+The interface is a public static void operation that prints as it
+progresses. It takes a string as an argument. Its inputs are strings. It
+has no outputs.
+public static void Encode (String s){
+
+3. What are five representative test cases this component should pass?
+ Encode
+Enter the string to encode: helloworld
+n = 0: helloworld
+n = 1: ifmmpxpsme
+n = 2: jgnnqyqtnf
+n = 3: khoorzruog
+n = 4: lippsasvph
+n = 5: mjqqtbtwqi
+n = 6: nkrrucuxrj
+n = 7: olssvdvysk
+n = 8: pmttwewztl
+n = 9: qnuuxfxaum
+n = 10: rovvygybvn
+n = 11: spwwzhzcwo
+n = 12: tqxxaiadxp
+n = 13: uryybjbeyq
+n = 14: vszzckcfzr
+n = 15: wtaadldgas
+n = 16: xubbemehbt
+n = 17: yvccfnficu
+n = 18: zwddgogjdv
+n = 19: axeehphkew
+n = 20: byffiqilfx
+n = 21: czggjrjmgy
+n = 22: dahhksknhz
+n = 23: ebiiltloia
+n = 24: fcjjmumpjb
+n = 25: gdkknvnqkc
+
+Encode (empty string)
+ This program encrypts and decrypts messages using a Caesar Cipher. Would you like to encode or decode your message?
+encode
+Enter string
+
+n= 0
+
+n= 1
+
+n= 2
+
+n= 3
+
+n= 4
+
+n= 5
+
+n= 6
+
+n= 7
+
+n= 8
+
+n= 9
+
+n= 10
+
+n= 11
+
+n= 12
+
+n= 13
+
+n= 14
+
+n= 15
+
+n= 16
+
+n= 17
+
+n= 18
+
+n= 19
+
+n= 20
+
+n= 21
+
+n= 22
+
+n= 23
+
+n= 24
+
+n= 25
+
+Encode: Single letter
+Enter string
+a
+n= 0
+a
+n= 1
+b
+n= 2
+c
+n= 3
+d
+n= 4
+e
+n= 5
+f
+n= 6
+g
+n= 7
+h
+n= 8
+i
+n= 9
+j
+n= 10
+k
+n= 11
+l
+n= 12
+m
+n= 13
+n
+n= 14
+o
+n= 15
+p
+n= 16
+q
+n= 17
+r
+n= 18
+s
+n= 19
+t
+n= 20
+u
+n= 21
+v
+n= 22
+w
+n= 23
+x
+n= 24
+y
+n= 25
+z
+
+Encode: Two-letter test
+Enter string
+az
+n= 0
+az
+n= 1
+ba
+n= 2
+cb
+n= 3
+dc
+n= 4
+ed
+n= 5
+fe
+n= 6
+gf
+n= 7
+hg
+n= 8
+ih
+n= 9
+ji
+n= 10
+kj
+n= 11
+lk
+n= 12
+ml
+n= 13
+nm
+n= 14
+on
+n= 15
+po
+n= 16
+qp
+n= 17
+rq
+n= 18
+sr
+n= 19
+ts
+n= 20
+ut
+n= 21
+vu
+n= 22
+wv
+n= 23
+xw
+n= 24
+yx
+n= 25
+zy
+
+Encode: 
+Enter string
+abj
+n= 0
+abj
+n= 1
+bck
+n= 2
+cdl
+n= 3
+dem
+n= 4
+efn
+n= 5
+fgo
+n= 6
+ghp
+n= 7
+hiq
+n= 8
+ijr
+n= 9
+jks
+n= 10
+klt
+n= 11
+lmu
+n= 12
+mnv
+n= 13
+now
+n= 14
+opx
+n= 15
+pqy
+n= 16
+qrz
+n= 17
+rsa
+n= 18
+stb
+n= 19
+tuc
+n= 20
+uvd
+n= 21
+vwe
+n= 22
+wxf
+n= 23
+xyg
+n= 24
+yzh
+n= 25
+zai
+
+
+1. Understand the Problem. 
+2. Formalize the Interface.
+Input:
+Output: 
+3. Write Tests:
+4. Solve the Problem (and recur):
