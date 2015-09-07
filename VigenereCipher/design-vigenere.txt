@@ -1,0 +1,67 @@
+Vigenere Cipher Commentary: Thu Nguyen and Elizabeth Zak
+1. What does this component do in a single sentence?
+
+VigenereCipher encodes or decodes a statement based on the options chosen.
+Decode takes two strings: one statement and one key and promptly shifts back
+each of the letters in the statement over from the numeric value of the
+key's letters.  
+
+
+2. What is the interface to this component? What are its inputs and
+outputs?
+
+The interface is a public static void operation that prints as it
+progresses. It takes a string and a key as an argument. Its inputs are
+strings. It has no outputs.
+public static void Decode (String s, String key){
+
+3. What are five representative test cases this component should pass?
+Decode: helloworld's reverse: jeanolqraf
+decode
+Enter string
+jeanolqraf
+Enter key
+cap
+helloworld
+
+Decode: single letter string
+Enter string
+a
+Enter key
+cap
+y
+
+Decode: single letter key
+decode
+Enter string
+hello
+Enter key
+c
+fcjjm
+
+Decode: three letter string, three letter key
+decode
+Enter string
+yay
+Enter key
+ecm
+uym
+
+Decode: null string
+decode
+Enter string
+
+Enter key
+cap
+
+Decode: null key
+decode
+Enter string
+cap
+Enter key
+
+Exception in thread "main" java.lang.ArithmeticException: / by zero
+	at VigenereCipher.Decode(VigenereCipher.java:26)
+	at VigenereCipher.main(VigenereCipher.java:58)
+        Return error: if you don't have a key, you cannot complete the
+	function. 
